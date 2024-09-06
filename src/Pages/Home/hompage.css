@@ -1,0 +1,16 @@
+/* Styles pour le conteneur flex */
+.container_homepage {
+    display: flex; 
+    gap: 100px;   
+}
+/* Styles pour les blocs */
+.box {
+    flex: 1; /* Les blocs prennent un espace égal */
+    padding: 20px; /* Espacement interne */
+    box-sizing: border-box; /* Inclut le padding et les bordures dans la largeur totale */
+    background-color: #f0f0f0; /* Couleur de fond pour les blocs */
+    border: 1px solid #ccc; /* Bordure autour des blocs */
+}
+
+/* Styles spécifiques pour chaque bloc (facultatif) */
+
